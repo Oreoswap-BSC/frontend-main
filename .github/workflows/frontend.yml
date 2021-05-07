@@ -1,0 +1,19 @@
+#Oreoswap Frontend CI/CD woorkflow
+
+name: oreoswap-frontend-ci-cd
+
+#events
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+
+
+#jobs
+
+jobs:
